@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var selectionTab: Int = 0
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $selectionTab) {
+            HomeScreen(selectionTab: $selectionTab)
+                .tabItem {
+                    Text("Home")
+                }
+                .tag(0)
+            SearchScreen()
+                .tabItem {
+                    Text("Search")
+                }
+                .tag(1)
+            SettingsScreen()
+                .tabItem {
+                    Text("Settings")
+                }
+                .tag(2)
+        }
     }
 }
 

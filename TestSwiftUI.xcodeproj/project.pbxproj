@@ -11,6 +11,11 @@
 		862AB57325794700005A0486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862AB57225794700005A0486 /* ContentView.swift */; };
 		862AB57525794703005A0486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862AB57425794703005A0486 /* Assets.xcassets */; };
 		862AB57825794703005A0486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862AB57725794703005A0486 /* Preview Assets.xcassets */; };
+		868547CD257A91D000C4424E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868547CC257A91D000C4424E /* HomeScreen.swift */; };
+		868547D0257A920600C4424E /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868547CF257A920600C4424E /* SearchScreen.swift */; };
+		868547D3257A920E00C4424E /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868547D2257A920E00C4424E /* SettingsScreen.swift */; };
+		86FA195E257AB9190037C028 /* FoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FA195D257AB9190037C028 /* FoodScreen.swift */; };
+		86FA1961257ABC490037C028 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FA1960257ABC490037C028 /* ModalScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		862AB57425794703005A0486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		862AB57725794703005A0486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		862AB57925794703005A0486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868547CC257A91D000C4424E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		868547CF257A920600C4424E /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		868547D2257A920E00C4424E /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		86FA195D257AB9190037C028 /* FoodScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScreen.swift; sourceTree = "<group>"; };
+		86FA1960257ABC490037C028 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		862AB56F25794700005A0486 /* TestSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				868547D8257A925C00C4424E /* Screens */,
 				862AB57025794700005A0486 /* TestSwiftUIApp.swift */,
 				862AB57225794700005A0486 /* ContentView.swift */,
 				862AB57425794703005A0486 /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				862AB57725794703005A0486 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		868547D8257A925C00C4424E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				868547CC257A91D000C4424E /* HomeScreen.swift */,
+				868547CF257A920600C4424E /* SearchScreen.swift */,
+				868547D2257A920E00C4424E /* SettingsScreen.swift */,
+				86FA195D257AB9190037C028 /* FoodScreen.swift */,
+				86FA1960257ABC490037C028 /* ModalScreen.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86FA1961257ABC490037C028 /* ModalScreen.swift in Sources */,
+				868547D3257A920E00C4424E /* SettingsScreen.swift in Sources */,
+				868547D0257A920600C4424E /* SearchScreen.swift in Sources */,
+				868547CD257A91D000C4424E /* HomeScreen.swift in Sources */,
+				86FA195E257AB9190037C028 /* FoodScreen.swift in Sources */,
 				862AB57325794700005A0486 /* ContentView.swift in Sources */,
 				862AB57125794700005A0486 /* TestSwiftUIApp.swift in Sources */,
 			);
